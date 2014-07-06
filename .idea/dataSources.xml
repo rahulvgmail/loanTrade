@@ -19,8 +19,8 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:loanTrade_production</jdbc-url>
-      <user-name>loanTrade</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe6dfe5dfebdfe4dffedff8dfebdfeedfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <user-name>rahul</user-name>
+      <user-password>dfcfdfdedfcbdfc2df9bdf98df99</user-password>
       <libraries />
     </data-source>
   </component>

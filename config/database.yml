@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: loanTrade_production
-  username: loanTrade
-  password: <%= ENV['LOANTRADE_DATABASE_PASSWORD'] %>
+  username: rahul	
+  password: etah123
