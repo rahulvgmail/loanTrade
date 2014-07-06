@@ -1,12 +1,7 @@
 class CreatePortfolios < ActiveRecord::Migration
   def change
-    create_table :portfolios do |t|
-      t.string :name
-
-      t.timestamps
-    end
-
     create_table :loans do |t|
+      t.string :name
       t.integer :amount
       t.string :int_rating
       t.decimal :interest, precision: 3, scale: 3
@@ -15,10 +10,16 @@ class CreatePortfolios < ActiveRecord::Migration
       t.timestamps
     end
 
-    create_table :portfolios_loans, id: false do |t|
-      t.belongs_to :portfolio
-      t.belongs_to :loan
+
+    create_table :portfolios do |t|
+      t.references :child
+      t.references :container
     end
+
+    add_index :portfolios, :child_id
+    add_index :portfolios, [:container_id, :child_id], :unique => true
+
+
 
   end
 end
