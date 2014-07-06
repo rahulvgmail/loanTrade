@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1211056712">
+    <data-source source="LOCAL" name="Rails loanTrade: development" uuid="5ed702e5-1708-4f3a-a6f6-7705566d65f4">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:loanTrade_development</jdbc-url>
+      <user-name>rahul</user-name>
+      <user-password>dfcfdfdedfcbdfc2df9bdf98df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails loanTrade: test" uuid="34ba0efb-4ff8-4544-8d3e-0f9279d79bd1">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:loanTrade_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails loanTrade: production" uuid="47c7ad4e-0d69-4c28-bacc-bde5eb0ad066">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:loanTrade_production</jdbc-url>
+      <user-name>loanTrade</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe6dfe5dfebdfe4dffedff8dfebdfeedfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

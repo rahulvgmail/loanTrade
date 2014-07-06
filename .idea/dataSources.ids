@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails loanTrade: development" uuid="5ed702e5-1708-4f3a-a6f6-7705566d65f4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails loanTrade: test" uuid="34ba0efb-4ff8-4544-8d3e-0f9279d79bd1">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails loanTrade: production" uuid="47c7ad4e-0d69-4c28-bacc-bde5eb0ad066">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
