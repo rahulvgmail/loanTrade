@@ -3,6 +3,8 @@ class Loan < ActiveRecord::Base
 
 
 #copy paste from web
+  #http://stackoverflow.com/questions/17603142/implementing-the-composite-pattern-in-ruby-on-rails/24598321#24598321
+
 
   has_and_belongs_to_many :children,
                           :class_name => "Loan",
