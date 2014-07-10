@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+  #devise_for :users
+
+  #resourses :loans
+  #resourses :orders
+  #resourses :trades
+  #resourses :instruments
+  #get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -15,6 +21,11 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+
+  resources :users
+  resources :loans
+  resources :trades
+  resources :orders
 
   # Example resource route with options:
   #   resources :products do
