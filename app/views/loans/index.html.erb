@@ -1,2 +1,10 @@
-<h1> Trades</h1>
-<p>empty</p>
+<h1> Loans</h1>
+<h1> Loans</h1>
+<p>Loan listing</p>
+<ul>
+  <% @loans.each do |lon| %>
+      <li> <%= link_to (lon.id.to_s + "===" + lon.int_rating) , lon %> <% "----" %> </li>
+  <% end%>
+</ul>
+
+

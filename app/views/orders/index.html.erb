@@ -1,2 +1,8 @@
 <h1> Trades</h1>
-<p>empty</p>
+<p>Order listing</p>
+<ul>
+  <% @orders.each do |ord| %>
+      <li> <%= link_to ord.id + "  " + ord.instrument_id, ord %> <% "----" %> </li>
+  <% end%>
+</ul>
+

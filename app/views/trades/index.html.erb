@@ -1,2 +1,7 @@
 <h1> Trades</h1>
-<p>empty</p>
+<p>trade listing</p>
+<ul>
+  <% @trades.each do |trd| %>
+      <li> <%= link_to trd.id + "  " + trd.instrument_id, trd %> <% "----" %> </li>
+  <% end%>
+</ul>
